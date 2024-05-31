@@ -9,11 +9,11 @@ The config files for faster R-CNN, FCOS, and YOLOv3 are shown in the following t
 ### Training
 please first turn to the mmdetection and then run 
 ```
-bash tools/dist_train.sh ${CONFIG_FILE} ${GPU_NUM} 
+tools/dist_train.sh ${CONFIG_FILE} ${GPU_NUM} 
 ```
 
 ### Test
 To test our trained model, please run
 ```
-bash tools/dist_test.sh ${CONFIG_FILE} ${CHECKPOINT_FILE} ${GPU_NUM}
+tools/dist_test.sh ${CONFIG_FILE} ${CHECKPOINT_FILE} ${GPU_NUM}
 ```
